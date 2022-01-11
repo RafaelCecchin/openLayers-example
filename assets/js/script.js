@@ -51,7 +51,7 @@ const map = new ol.Map({
           anchorXUnits: 'fraction',
           anchorYUnits: 'fraction',
           scale: 0.3,
-          src: "/assets/images/marcador-de-mapa.png"
+          src: "/assets/images/pin.png"
         })
       })
     }),
