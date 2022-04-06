@@ -4,3 +4,4 @@
  - [x] Múltiplos marcadores
  - [x] Fundo em escalas de cinza
  - [x] Responsivo
+ - [x] Evento de clique

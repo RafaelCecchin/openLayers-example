@@ -63,3 +63,15 @@ const map = new ol.Map({
     minZoom: 7
   })
 });
+
+/* Evento de clique */
+
+map.on('click', function (evt) {
+  const feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
+    return feature;
+  });
+  if (pins.includes(feature)) {
+    let propriedades = feature.getProperties();
+    alert(propriedades.name);
+  }
+});
